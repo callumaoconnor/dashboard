@@ -1,6 +1,3 @@
-<!-- collaborator counter -->
-<script>
-
 $(document).ready(function() {
 
   const collaboratorcounter = $('.cms-collaborator-counter').length;
@@ -44,4 +41,3 @@ $(document).ready(function() {
 
   $('.articles-amount').text(articlescounter); 
 });
-</script>
