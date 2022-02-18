@@ -46,7 +46,7 @@
   }); 
   
   $('#Collaborators-Article').select2({
-    placeholder: 'Add viewer(s)'
+    placeholder: 'Add contributor(s)'
   });
 
   
