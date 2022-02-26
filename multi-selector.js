@@ -84,3 +84,16 @@
   $('#Status-Project').select2({
     placeholder: 'Add status'
   });
+
+
+
+
+ $('.article-item').each(function(){
+    articleName = $(this).children('.article-name').text();
+    articleId = $(this).children('.article-id').text();
+    $('#Article-Selection').append('<option value="'+articleId+'">'+articleName+'</option>');
+  }); 
+  
+  $('#Article-Selection').select2({
+    placeholder: 'Select articles'
+  });
