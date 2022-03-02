@@ -16,3 +16,7 @@
   --duet-border-width: 1px!important;
   --duet-z-index: 600;
 }
+
+:focus {
+  --duet-border-width: 1px!important;
+}
