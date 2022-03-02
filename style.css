@@ -19,32 +19,5 @@
 
 
 :focus {
-  --duet-outline:none!important;
-}
-
-input:focus {
   outline:none!important;
-  border:1px solid #2399d5!important;
 }
-
-.duet-date__input {
-  padding-top: 8px!important;
-  padding-right: 58px!important;
-  padding-bottom: 8px!important;
-  padding-left: 12px!important;
-}
-
-.duet-date:focus {
-    outline:none!important;
-    border:1px solid #2399d5!important;
-  }
-
-.duet-date__input:focus {
-    outline:none!important;
-    border:1px solid #2399d5!important;
-  }
-
-.duet-date__input-wrapper:focus {
-    outline:none!important;
-    border:1px solid #2399d5!important;
-  }
