@@ -12,6 +12,10 @@
   --duet-font-normal: 400;
   --duet-font-bold: 600;
 
-  --duet-radius: 2px;
+  --duet-radius: 1px!important;
   --duet-z-index: 600;
+}
+
+:focused {
+  --duet-radius: 1px!important;
 }
