@@ -18,10 +18,10 @@
 }
 
 .duet-date_input {
-  padding-top: 14px;
-  padding-right: 60px;
-  padding-bottom: 14px;
-  padding-left: 14px;
+  padding-top: 8px!important;
+  padding-right: 58px!important;
+  padding-bottom: 8px!important;
+  padding-left: 12px!important;
 }
 
 :focus {
