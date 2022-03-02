@@ -8,7 +8,7 @@
   --duet-color-overlay: rgba(0, 0, 0, 0.8);
   --duet-color-border: #ccc;
 
-  --duet-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --duet-font: 'Source Sans Pro', sans-serif;
   --duet-font-normal: 400;
   --duet-font-bold: 600;
 
@@ -17,6 +17,10 @@
   --duet-z-index: 600;
 }
 
-:focus {
-  --duet-border: 1px!important;
+.duet-date_input {
+  padding: 8px 58px 8px 12px;
+}
+
+.duet-date:focus {
+  border: 1px!important;
 }
