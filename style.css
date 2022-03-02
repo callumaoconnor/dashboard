@@ -13,7 +13,7 @@
   --duet-font-bold: 600;
 
   --duet-radius: 2px;
-  --duet-outline: 1px;
+  --duet-outline: 1px!important;
   --duet-border: 0px #2399d5!important;
   --duet-z-index: 600;
 }
