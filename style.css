@@ -17,13 +17,13 @@
   --duet-z-index: 600;
 }
 
-.duet-date_input {
+.duet-date__input {
   padding-top: 8px!important;
   padding-right: 58px!important;
   padding-bottom: 8px!important;
   padding-left: 12px!important;
 }
 
-:focus {
-  --duet-border: 1px!important;
+.duet-date--focus {
+  border: 1px!important;
 }
