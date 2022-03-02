@@ -13,10 +13,10 @@
   --duet-font-bold: 600;
 
   --duet-radius: 2px;
-  --duet-border-width: 1px!important;
+  --duet-border: 1px!important;
   --duet-z-index: 600;
 }
 
 :focus {
-  --duet-border-width: 1px!important;
+  --duet-border: 1px!important;
 }
