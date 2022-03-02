@@ -17,6 +17,11 @@
   --duet-z-index: 600;
 }
 
+
+:focus {
+  --duet-outline:none!important;
+}
+
 .duet-date__input {
   padding-top: 8px!important;
   padding-right: 58px!important;
@@ -37,8 +42,4 @@
 .duet-date__input-wrapper:focus {
     outline:none!important;
     border:1px solid #2399d5!important;
-  }
-
-:focus {
-    outline:none!important;
   }
