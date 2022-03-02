@@ -16,6 +16,6 @@
   --duet-z-index: 600;
 }
 
-:focused {
+:focus {
   --duet-radius: 1px!important;
 }
