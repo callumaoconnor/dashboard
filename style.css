@@ -13,11 +13,15 @@
   --duet-font-bold: 600;
 
   --duet-radius: 2px;
+  --duet-outline: none!important;
   --duet-border: 1px!important;
   --duet-z-index: 600;
 }
 
 
-:focus {
-  outline:none!important;
+.duet-date__input {
+  padding-top: 8px!important;
+  padding-right: 58px!important;
+  padding-bottom: 8px!important;
+  padding-left: 12px!important;
 }
