@@ -18,9 +18,9 @@
 }
 
 .duet-date_input {
-  padding: 8px 58px 8px 12px;
+  padding: 8px 58px 8px 12px!important;
 }
 
-.duet-date:focus {
+.duet-date--focus {
   border: 1px!important;
 }
