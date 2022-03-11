@@ -6,6 +6,8 @@ var divSettings = document.getElementById("settings");
 var divUsernameError= document.getElementById("username-error");
 var divEmailError= document.getElementById("email-error");
 var divViolationError= document.getElementById("violation");
+var divContribute = document.getElementById("contribute-modal");
+
 
 if (params.indexOf("username_error") > -1) {
   divSettings.style.display = "flex";
@@ -27,4 +29,7 @@ if (params.indexOf("username_error") > -1) {
 }else if (params.indexOf("settings") > -1) {
  	divSettings.style.display = "flex";
   divSettings.style.opacity = "100%";
+}else if (params.indexOf("contribute") > -1) {
+  divContribute.style.display = "flex";
+  divContribute.style.opacity = "100%";
 }
