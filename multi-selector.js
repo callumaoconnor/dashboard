@@ -44,6 +44,7 @@
     themeId = $(this).children('.theme-id').text();
     $('#Themes-Project').append('<option value="'+themeId+'">'+themeName+'</option>');
     $('#Themes-Article').append('<option value="'+themeId+'">'+themeName+'</option>');
+    $('#Themes-Post').append('<option value="'+themeId+'">'+themeName+'</option>');
   }); 
   
   $('#Themes-Project').select2({
@@ -66,6 +67,7 @@
     typologyId = $(this).children('.typology-id').text();
     $('#Typologies-Project').append('<option value="'+typologyId+'">'+typologyName+'</option>');
     $('#Typologies-Article').append('<option value="'+typologyId+'">'+typologyName+'</option>');
+    $('#Typologies-Post').append('<option value="'+typologyId+'">'+typologyName+'</option>');
   }); 
   
   $('#Typologies-Project').select2({
@@ -87,6 +89,7 @@
     statusName = $(this).children('.status-name').text();
     statusId = $(this).children('.status-id').text();
     $('#Status-Project').append('<option value="'+statusId+'">'+statusName+'</option>');
+    $('#Status-Post').append('<option value="'+statusId+'">'+statusName+'</option>');
   }); 
   
   $('#Status-Project').select2({
