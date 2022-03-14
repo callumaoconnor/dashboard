@@ -54,6 +54,10 @@
     placeholder: 'Add themes'
   });
 
+  $('#Themes-Post').select2({
+    placeholder: 'Add themes'
+  });
+
 
 
 
@@ -72,6 +76,10 @@
     placeholder: 'Add typologies'
   });
 
+  $('#Typologies-Post').select2({
+    placeholder: 'Add typologies'
+  });
+
 
 
 
@@ -82,6 +90,10 @@
   }); 
   
   $('#Status-Project').select2({
+    placeholder: 'Add status'
+  });
+
+  $('#Status-Post').select2({
     placeholder: 'Add status'
   });
 
